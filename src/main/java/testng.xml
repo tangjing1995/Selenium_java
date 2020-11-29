@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="Suite">
+    <parameter name="username"  value="roadtester"/>
+    <parameter name="password"  value="123456"/>
+
+    <parameter name="iconPath"  value="D:\test.jpg"/>
+    <parameter name="age"  value="17"/>
+    <parameter name="comPany"  value="test"/>
+    <parameter name="qq"  value="123456"/>
+    <parameter name="email"  value="4186354@qq.com"/>
+    <parameter name="phone"  value="154654655"/>
+
+
+    <test  name="login">
+        <classes>
+            <class name="TestCase.TestLogin"/>
+        </classes>
+    </test>
+
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+</suite>
