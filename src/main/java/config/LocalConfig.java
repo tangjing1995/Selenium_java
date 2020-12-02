@@ -24,6 +24,6 @@ public static String DOWN_LOADS_PATH = "" ;     //文件下载路径
 
 public static  String INI_CONFIG_PATH = "./src/main/resources/data.ini";
 
-
+public static  String LOG_CONFIG_PATH = "\\src\\main\\java\\log\\";
 
 }
